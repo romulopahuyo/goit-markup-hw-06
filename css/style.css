@@ -330,8 +330,8 @@ position: relative;
 
 .modal .close {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 24px;
+    right: 24px;
     padding: 0;
     display: flex;
     justify-content: center;
@@ -372,11 +372,10 @@ position: relative;
 }
 
     .modal-form {
-    width: 100%;
     display: flex;
     position:absolute;
     top:20px;
-    left:30px;
+    left:24px;
     justify-content: center;
     align-items: flex-start;
     flex-direction: column;
@@ -497,14 +496,14 @@ position: relative;
     height: 16px;
     border: 1px solid var(--navyblue);
     border-radius: 2px;
-    padding: 1px;
-    fill: var(--whitecolor);
+    fill: none;
     transition: fill var(--transition-duration) var(--animation-timing-function);
 }
 
 .form-group-agree input[type="checkbox"]:checked+label svg {
     stroke: var(--navcolor);
     background-color: var(--iriscolor);
+    border:none;
 }
 
 .form-group-agree label {
