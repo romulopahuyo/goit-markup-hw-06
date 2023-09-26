@@ -501,7 +501,7 @@ position: relative;
 }
 
 .form-group-agree input[type="checkbox"]:checked+label svg {
-    stroke: var(--navcolor);
+    stroke: var(--whitecolor);
     background-color: var(--iriscolor);
     border:none;
 }
